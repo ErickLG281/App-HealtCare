@@ -9,17 +9,17 @@
     tools:context=".Splash.splash">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/SplashLogo"
         android:layout_width="235dp"
         android:layout_height="232dp"
-        android:layout_marginTop="192dp"
+        android:layout_marginTop="280dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logohealthcare_blanco" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/SplashtextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -29,5 +29,5 @@
         android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/SplashLogo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

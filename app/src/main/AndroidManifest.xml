@@ -13,6 +13,18 @@
         android:theme="@style/Theme.HealtCare"
         tools:targetApi="31">
         <activity
+            android:name=".OnboardingScreen.OnboardingC"
+            android:exported="true" />
+        <activity
+            android:name=".OnboardingScreen.OnboardingB"
+            android:exported="true" />
+        <activity
+            android:name=".OnboardingScreen.OnboardingA"
+            android:exported="true" />
+        <activity
+            android:name=".WelcomeScreen.BienvenidoScreen"
+            android:exported="true" />
+        <activity
             android:name=".Splash.splash"
             android:exported="true" />
         <activity
