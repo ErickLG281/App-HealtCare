@@ -42,15 +42,16 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/NextAbutton"
         android:layout_width="166dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="108dp"
-        android:layout_marginBottom="134dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
         android:backgroundTint="#33E4DB"
         android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
